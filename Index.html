@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Home</Title>
+        <link rel="stylesheet" href="Main.css">
+        <link rel="stylesheet" href="games.css">
+    </head>
+    <body>
+        <h1 id="Title">Do Anything Online</h1>
+        <h2 id="Title2">Made by RedX and RX
+        <div class="gamed">
+        <embed id="embededGame" src="https://bing.com"
+        width="900px" 
+        height="500px" allowfullscreen/>
+        
+        <button class="but" onclick="goFullscreen('embededGame'); return false">Fullscreen</button>
+</div>
+        <div id="infobox">
+          <h2 class="INFO">Information</h2>
+
+        <p class="paragraph">DAO allows you to search the web securly.<br>Original link: <a href="https://www.bing.com/">https://www.bing.com/</a>
+          <br>
+        </p>
+        <h2 class="others">DAO Perks:</h2>
+        <p><ul class="bullets">
+          <li>
+              No one can see the history, you can look up ALMOST any site, and it is a file that cant be blocked.
+          </li>
+        </ul>
+      </p>
+        <h2 class="others">Bugs:</h2>
+        <ul class="bullets"><li>some sites dont work because they wont connect.</li>
+      </div>
+
+ <!-- Script is about the fullscreen button-->
+<script>
+function goFullscreen(id) {
+    var element = document.getElementById(id);
+    if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.webkitRequestFullScreen) {
+      element.webkitRequestFullScreen();
+    }
+}
+</script>
+
+    </body>
+</html>

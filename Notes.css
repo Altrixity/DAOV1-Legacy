@@ -1,0 +1,22 @@
+.PatchNotes {
+    color: lightgray;
+    background-color: rgb(78, 78, 78);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.LearnMore {
+    border: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: darkgray;
+    background-color: gray;
+
+}
+.button2 {
+    color: white;
+}

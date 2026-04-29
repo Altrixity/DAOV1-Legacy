@@ -1,0 +1,79 @@
+Body {
+    background-color: #003f4d;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.Games {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.obj_1 {
+    border: 10px solid cyan;
+    border-radius: 20%;
+}
+.obj_1.obj_1:hover {
+    border: 10px solid aquamarine;
+    border-radius: 30%;
+}
+.obj_2 {
+    border: 10px solid cyan;
+    border-radius: 20%;
+}
+.obj_2.obj_2:hover {
+    border: 10px solid aquamarine;
+    border-radius: 30%;
+}
+a {
+    color: cyan;
+}
+a:hover {
+    color: aquamarine;
+}
+.but {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+.but:hover {
+    background-color: rgb(80, 80, 80);
+    border: none;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+#DOS {
+    text-align: center;
+    
+}
+.DO {
+    font-size: 50px;
+    color: cyan;
+}
+.textmain {
+    color: cyan;
+}
+.fnf {
+        border: 10px solid cyan;
+        border-radius: 20%;
+}
+.fnf:hover {
+        border: 10px solid aquamarine;
+        border-radius: 30%;
+    }
+.bing {
+        border: 10px solid cyan;
+        border-radius: 20%;
+}
+.bing:hover {
+        border: 10px solid aquamarine;
+        border-radius: 30%;
+    }
+.Game {
+        border: 10px solid cyan;
+        border-radius: 20%;
+}
+.Game:hover {
+        border: 10px solid aquamarine;
+        border-radius: 30%;
+    }
